@@ -1,60 +1,170 @@
-Portfolio de Nina Carducci – Optimisation et Améliorations
+# 📸 Nina Carducci Portfolio
 
-Ce projet est le portfolio en ligne de Nina Carducci, une photographe basée à Bordeaux. L'objectif des améliorations apportées était d'optimiser les performances du site, son référencement ainsi que son accessibilité.
+> An optimized photographer portfolio website built with **HTML, CSS, and JavaScript**.  
+> This project showcases the work of **Nina Carducci**, a professional photographer based in Bordeaux, with a strong focus on **performance**, **accessibility**, and **SEO**. ✨
 
-🛠 Technologies utilisées
-HTML5
-CSS3
-Bootstrap
-JavaScript
-jQuery
-Git
+---
 
-✨ Fonctionnalités
-Présentation des projets photographiques de Nina Carducci.
-Filtrage des projets par catégorie (Entreprise, Mariage, Concert).
-Formulaire de contact permettant aux visiteurs de prendre contact avec Nina Carducci pour des demandes de projet ou de collaboration.
+## 📚 Table of Contents
 
-🔗 Liens
-Version avant optimisation : https://nina-carducci.github.io/
-Version optimisée : https://keroberos68.github.io/Nina-Carducci-Dev/
+- [📖 About](#-about)
+- [🎯 Project Goals](#-project-goals)
+- [⚙️ Features](#️-features)
+- [🛠️ Built With](#️-built-with)
+- [🚀 Improvements Made](#-improvements-made)
+- [📁 Project Structure](#-project-structure)
+- [🌍 Live Demo](#-live-demo)
+- [🚀 Getting Started](#-getting-started)
+- [👨‍🎓 Learning Outcomes](#-learning-outcomes)
+- [👤 Author](#-author)
 
-🔍 Améliorations apportées
+---
 
-🐞 Débogage
-Correction d'un problème de navigation dans la modale photos.
-Attribution d'une couleur de fond pour le filtre sélectionné.
-Ajout de la sélection du filtre via le clavier pour une meilleure accessibilité.
+## 📖 About
 
-♿ Accessibilité
-Restructuration du site avec des balises sémantiques pour améliorer la compréhension du contenu par les lecteurs d'écran.
-Hiérarchisation plus cohérente des titres (H1, H2, H3...).
-Ajout de textes alternatifs pour les images.
-Amélioration du contraste de certains éléments pour une meilleure lisibilité.
-Correction de la navigation au clavier pour les éléments interactifs.
+**Nina Carducci Portfolio** is an OpenClassrooms project focused on optimizing an existing photographer portfolio website.
 
-🚀 Performances
-Optimisation des images :
-Conversion des images aux formats AVIF  pour un chargement plus rapide.
-Redimensionnement des images à leurs conteneurs pour éviter le chargement inutile de fichiers lourds.
-Minification des fichiers CSS et JavaScript.
-Optimisation du chargement :
-Utilisation de la propriété defer pour différer l'exécution des scripts JavaScript.
-Chargement différé des images hors écran avec le lazy loading.
-Mise en cache pour une meilleure performance côté utilisateur.
+The main objective was not to build the site from scratch, but to **improve its overall quality** by working on:
 
-📈 SEO (Référencement)
-Ajout des balises méta essentielles pour le référencement :
-Définition de la langue du site (lang="fr").
-Intégration des balises Open Graph pour un partage optimisé sur les réseaux sociaux.
-Ajout des micro-données schema.org pour une meilleure compréhension du contenu par les moteurs de recherche.
-Amélioration de la structure HTML pour une meilleure indexation.
+- ⚡ performance optimization
+- ♿ accessibility improvements
+- 🔍 search engine optimization (SEO)
+- 🐞 bug fixing
+- 🧱 semantic HTML structure
 
-🔧 Autres améliorations
-Politique de mise en cache :
-Création d'un fichier .htaccess à la racine du projet pour gérer la mise en cache et améliorer le temps de chargement.
+The website presents Nina Carducci’s photography services, portfolio gallery, business information, and contact form in a clean and professional interface.
 
+---
 
-🚀 Conclusion
-Grâce à ces améliorations, le site se charge plus rapidement, offre une meilleure accessibilité et bénéficie d'un référencement optimisé.
+## 🎯 Project Goals
 
+The main objectives of this project were:
+
+- Optimize an existing website for better loading speed
+- Improve **accessibility** for all users
+- Strengthen **SEO** with semantic structure and metadata
+- Fix usability and navigation issues
+- Deliver a more professional and maintainable front-end project
+
+---
+
+## ⚙️ Features
+
+- 🖼️ Photographer portfolio gallery with category filtering
+- 🎞️ Header carousel with responsive images
+- 👤 About section presenting the photographer
+- 💼 Services section with pricing details
+- ✉️ Contact form for project inquiries
+- 📱 Responsive layout for different screen sizes
+- ♿ Improved keyboard navigation and accessibility
+- 🔎 Enhanced metadata and structured data for SEO
+
+---
+
+## 🛠️ Built With
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap**
+- **jQuery**
+- **Google Fonts**
+
+---
+
+## 🚀 Improvements Made
+
+### ⚡ Performance
+
+- Converted and optimized images for faster loading
+- Used **responsive image formats** and adapted image sizes
+- Minified CSS and JavaScript files
+- Added **lazy loading** for offscreen images
+- Improved script loading with `defer`
+- Added caching rules through `.htaccess`
+
+### ♿ Accessibility
+
+- Improved semantic HTML structure
+- Reworked heading hierarchy for better readability
+- Added or improved `alt` text on images
+- Improved keyboard navigation
+- Enhanced contrast on some interface elements
+
+### 🔍 SEO
+
+- Added relevant **meta tags**
+- Improved page descriptions and social sharing tags
+- Added **Open Graph** and **Twitter Card** metadata
+- Integrated **structured data** with `schema.org`
+- Improved HTML structure for better indexing
+- Added `robots.txt` and `sitemap.xml`
+
+### 🐞 Bug Fixes
+
+- Fixed navigation issues in the photo modal/gallery
+- Improved selected filter visibility
+- Added keyboard support for filter selection
+
+---
+
+## 📁 Project Structure
+
+```text
+OC-Portfolio_Nina_Carducci/
+├── assets/
+├── .gitignore
+├── .htaccess
+├── index.html
+├── README.md
+├── robots.txt
+└── sitemap.xml
+```
+
+---
+
+## 🌍 Live Demo
+
+- 🔗 Original version: https://nina-carducci.github.io/
+- 🚀 Optimized version: https://keroberos68.github.io/OC-Portfolio_Nina_Carducci/
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KeroBeros68/OC-Portfolio_Nina_Carducci.git
+   ```
+
+2. Open the project folder:
+   ```bash
+   cd OC-Portfolio_Nina_Carducci
+   ```
+
+3. Launch `index.html` in your browser.
+
+No installation or build step is required. ✅
+
+---
+
+## 👨‍🎓 Learning Outcomes
+
+Through this project, I practiced:
+
+- optimizing front-end performance
+- improving accessibility on an existing website
+- strengthening on-page SEO
+- structuring HTML more semantically
+- working with responsive and optimized media
+- debugging and enhancing user experience
+
+---
+
+## 👤 Author
+
+**KeroBeros68**
+
+Project completed as part of the **OpenClassrooms** learning path. 🎓
